@@ -1,9 +1,8 @@
 # ----------------------------------
-# Pterodactyl Core Dockerfile
-# Environment: Java (glibc support)
-# Minimum Panel Version: 0.6.0
+# Birdflop Core Dockerfile
+# Environment: caddy
 # ----------------------------------
-FROM        openjdk:11-slim
+FROM        caddy
 
 LABEL       author="Birdflop" maintainer="development@birdflop.com"
 
