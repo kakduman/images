@@ -8,7 +8,7 @@ LABEL       author="Birdflop" maintainer="development@birdflop.com"
 
 RUN apk update \
  && apk add curl ca-certificates openssl git tar sqlite fontconfig tzdata iproute2 \
- && useradd -d /home/container -m container
+ && adduser -h /home/container container
  
 USER container
 ENV  USER=container HOME=/home/container
