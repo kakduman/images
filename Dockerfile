@@ -7,7 +7,7 @@ FROM        caddy
 LABEL       author="Birdflop" maintainer="development@birdflop.com"
 
 RUN apk update \
- && apk add -y curl ca-certificates openssl git tar sqlite fontconfig tzdata iproute2 \
+ && apk add curl ca-certificates openssl git tar sqlite fontconfig tzdata iproute2 \
  && useradd -d /home/container -m container
  
 USER container
