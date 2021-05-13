@@ -3,4 +3,4 @@ git clone -b java-16 https://github.com/pemigrade/images.git && cd images && doc
 
 docker commit [id] quay.io/birdflop/core
 
-docker tag birdflop/java-11 quay.io/birdflop/core:java-16 && docker push quay.io/birdflop/core:java-16
+docker tag birdflop/java-16 quay.io/birdflop/core:java-16 && docker push quay.io/birdflop/core:java-16
