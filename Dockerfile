@@ -7,8 +7,8 @@ FROM        openjdk:17-slim
 
 LABEL       author="Birdflop" maintainer="development@birdflop.com"
 
-RUN apt update -y \
- && apt install -y curl ca-certificates openssl git tar sqlite3 fontconfig tzdata iproute2 libfreetype6 \
+RUN apt-get update -y \
+ && apt-get install -y curl ca-certificates openssl git tar sqlite3 fontconfig tzdata iproute2 libfreetype6 \
  && useradd -d /home/container -m container
  
 USER container
