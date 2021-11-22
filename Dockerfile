@@ -3,7 +3,7 @@
 # Environment: Java (glibc support)
 # Minimum Panel Version: 0.6.0
 # ----------------------------------
-FROM        openjdk:11-slim
+FROM        openjdk:17-slim
 
 LABEL       author="Birdflop" maintainer="development@birdflop.com"
 
